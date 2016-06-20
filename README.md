@@ -1,1 +1,3 @@
-# my-webapp
+# myapp
+
+a [Sails](http://sailsjs.org) application
