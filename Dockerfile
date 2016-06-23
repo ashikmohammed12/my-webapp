@@ -4,8 +4,8 @@ RUN curl -sL https://deb.nodesource.com/setup | bash -
 RUN apt-get install -y ssh
 RUN ln -sf /usr/share/zoneinfo/IST /etc/localtime
 #COPY SIA /opt/
-COPY SIA /opt/SIA
-WORKDIR /opt/SIA
+#COPY SIA /opt/SIA
+#WORKDIR /opt/SIA
 RUN npm install
 RUN mkdir logs && chmod +x logs -R
 EXPOSE 27017
